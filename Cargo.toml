@@ -1,0 +1,10 @@
+[package]
+name = "concurrent_hashmap"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num_cpus = "1.16.0"
+parking_lot = "0.12.3"
