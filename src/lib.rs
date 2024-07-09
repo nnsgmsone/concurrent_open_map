@@ -68,7 +68,11 @@ fn calculate_hash<T: Hash>(t: &T) -> u64 {
 }
 
 fn shr(x: u64, s: u32) -> u32 {
-    (x >> s.min(63)) as u32
+    if s >= 64 {
+        0
+    } else {
+        (x >> s) as u32
+    }
 }
 
 impl<K, V> PartialEq for Bucket<K, V>
