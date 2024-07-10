@@ -1,7 +1,13 @@
 [package]
-name = "concurrent_hashmap"
+name = "concurrent_open_map"
 version = "0.1.0"
 edition = "2021"
+authors = ["nnsgmsone <nnsmgsone@outlook.com>"]
+license = "GPL"
+description = "A concurrent hashmap implementation in Rust"
+repository = "https://github.com/nnsgmsone/concurrent_open_map"
+documentation = "https://docs.rs/concurrent_hashmap"
+homepage = ""
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
